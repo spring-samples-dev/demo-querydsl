@@ -1,4 +1,4 @@
-package com.credera.querydsl.entities;
+package org.demo.querydsl.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -12,21 +12,16 @@ import javax.persistence.Id;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Entity
-public class BranchLocation {
+@Entity(name="customer")
+public class Customer {
 
     @Id
     @GeneratedValue(strategy= GenerationType.AUTO)
     private Long id;
     
-    private String bankName;
-    private String branchName;
-    private String address;
-    private String city;
-    private String state;
-    private String zip;
-    private String country;
-    private String phoneNumber;
+    private String username;
+    private String firstName;
+    private String lastName;
+    private String accountNumber;
 
 }
-
