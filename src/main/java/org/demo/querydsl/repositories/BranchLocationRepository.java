@@ -1,6 +1,6 @@
-package com.credera.querydsl.repositories;
+package org.demo.querydsl.repositories;
 
-import com.credera.querydsl.entities.BranchLocation;
+import org.demo.querydsl.entities.BranchLocation;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.querydsl.QueryDslPredicateExecutor;
 

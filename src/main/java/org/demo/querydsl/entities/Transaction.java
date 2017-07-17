@@ -1,4 +1,4 @@
-package com.credera.querydsl.entities;
+package org.demo.querydsl.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

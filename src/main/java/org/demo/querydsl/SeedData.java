@@ -1,11 +1,11 @@
-package com.credera.querydsl;
+package org.demo.querydsl;
 
-import com.credera.querydsl.entities.BranchLocation;
-import com.credera.querydsl.entities.Customer;
-import com.credera.querydsl.entities.Transaction;
-import com.credera.querydsl.repositories.BranchLocationRepository;
-import com.credera.querydsl.repositories.CustomerRepository;
-import com.credera.querydsl.repositories.TransactionRepository;
+import org.demo.querydsl.entities.BranchLocation;
+import org.demo.querydsl.entities.Customer;
+import org.demo.querydsl.entities.Transaction;
+import org.demo.querydsl.repositories.BranchLocationRepository;
+import org.demo.querydsl.repositories.CustomerRepository;
+import org.demo.querydsl.repositories.TransactionRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Configuration;
 

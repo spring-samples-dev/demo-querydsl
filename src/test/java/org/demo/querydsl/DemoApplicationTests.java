@@ -1,4 +1,4 @@
-package com.credera.querydsl;
+package org.demo.querydsl;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
